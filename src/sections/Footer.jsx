@@ -40,7 +40,7 @@ const Footer = () => {
                   <li 
                     key={link.name}
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
-                    <a>{link.name}</a>
+                    <a href="/">{link.name}</a>
                   </li>
                 ))}
               </ul>
