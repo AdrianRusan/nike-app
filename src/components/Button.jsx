@@ -10,8 +10,10 @@ const Button = ({ label, iconURL, backgroundColor, borderColor, textColor, fullW
         {label}
       {iconURL && <img 
         src={iconURL}
+        width={20}
+        height={20}
         alt="arrow right icon"
-        className="ml-2 rounded-full w-5 h-5"
+        className="ml-2 rounded-full"
       />}
     </button>
   )
